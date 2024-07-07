@@ -1,0 +1,68 @@
+
+/* .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .alert {
+    color: red;
+  }
+  
+  .list-group-item {
+    color: #025fc2ce; 
+    text-decoration: none;
+
+  }
+  
+  .list-group-item:hover {
+    text-decoration: underline;
+  } */
+  body {
+    background-color: #f0f8ff; /* світло-блакитний колір фону */
+    color: #333; /* темний колір тексту */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* білий колір фону */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.alert {
+    color: red;
+}
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007bff; /* синій колір фону */
+    color: #fff; /* білий колір тексту */
+    text-decoration: none;
+    border-radius: 4px;
+    display: block;
+}
+
+.list-group-item:hover {
+    background-color: #0056b3; /* темніший синій колір при наведенні */
+}

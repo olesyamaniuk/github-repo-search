@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background-color: #f0f8ff; /* світло-блакитний колір фону */
+  color: #333; /* темний колір тексту */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff; /* білий колір фону */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.alert {
+  color: red;
+}
+
+.list-group-item {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+.list-group-item:hover {
+  text-decoration: underline;
 }
